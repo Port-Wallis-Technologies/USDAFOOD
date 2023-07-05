@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_3LAvURJ9Ee6iWNo1ZkwsOg" name="input_food" id="_3LAvUBJ9Ee6iWNo1ZkwsOg" dataPackage="_3LAvUhJ9Ee6iWNo1ZkwsOg" Server="Localhost 127.0.0.1" FilePath="C:/DATA/USDAFood/input_food.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_3LAvUhJ9Ee6iWNo1ZkwsOg" name="default" dataManager="_3LAvURJ9Ee6iWNo1ZkwsOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_3LAvUxJ9Ee6iWNo1ZkwsOg" id="_smHNMBJ9Ee6iWNo1ZkwsOg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvVBJ9Ee6iWNo1ZkwsOg" label="id" length="6" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvVRJ9Ee6iWNo1ZkwsOg" label="fdc_id" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvVhJ9Ee6iWNo1ZkwsOg" label="fdc_id_of_input_food" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvVxJ9Ee6iWNo1ZkwsOg" label="seq_num" length="100" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvWBJ9Ee6iWNo1ZkwsOg" label="amount" length="10" precision="5" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvWRJ9Ee6iWNo1ZkwsOg" label="sr_code" length="8" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvWhJ9Ee6iWNo1ZkwsOg" label="sr_description" length="1001" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvWxJ9Ee6iWNo1ZkwsOg" label="unit" length="2" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvXBJ9Ee6iWNo1ZkwsOg" label="portion_code" length="5" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvXRJ9Ee6iWNo1ZkwsOg" label="portion_description" length="1003" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvXhJ9Ee6iWNo1ZkwsOg" label="gram_weight" length="10" precision="5" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvXxJ9Ee6iWNo1ZkwsOg" label="retention_code" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3LAvYBJ9Ee6iWNo1ZkwsOg" label="survey_flag" length="1002" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

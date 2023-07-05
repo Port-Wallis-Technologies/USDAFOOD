@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_BkusoBK0Ee6iWNo1ZkwsOg" dataPackage="_BkusoRK0Ee6iWNo1ZkwsOg" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_BkusoRK0Ee6iWNo1ZkwsOg" dataManager="_BkusoBK0Ee6iWNo1ZkwsOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_BkusohK0Ee6iWNo1ZkwsOg" id="_BkqbMBK0Ee6iWNo1ZkwsOg" label="postgres">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BkusoxK0Ee6iWNo1ZkwsOg" name="id" label="id" length="1" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_BkuspBK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BkuspRK0Ee6iWNo1ZkwsOg" name="foodId" label="foodId" length="7" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_BkusphK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BkuspxK0Ee6iWNo1ZkwsOg" name="method" label="method" length="19" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_BkusqBK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BkusqRK0Ee6iWNo1ZkwsOg" name="microbe_code" label="microbe_code" length="28" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_BkusqhK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BkusqxK0Ee6iWNo1ZkwsOg" name="min_value" label="min_value" length="8" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_BkusrBK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BkusrRK0Ee6iWNo1ZkwsOg" name="max_value" label="max_value" length="1001" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_BkusrhK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BkusrxK0Ee6iWNo1ZkwsOg" name="uom" label="uom" length="5" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_BkussBK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

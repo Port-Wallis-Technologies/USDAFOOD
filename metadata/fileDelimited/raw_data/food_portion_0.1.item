@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_UvXagBJ9Ee6iWNo1ZkwsOg" name="food_portion" id="_UvWzcBJ9Ee6iWNo1ZkwsOg" dataPackage="_UvXagRJ9Ee6iWNo1ZkwsOg" Server="Localhost 127.0.0.1" FilePath="C:/DATA/USDAFood/food_portion.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_UvXagRJ9Ee6iWNo1ZkwsOg" name="default" dataManager="_UvXagBJ9Ee6iWNo1ZkwsOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_UvXaghJ9Ee6iWNo1ZkwsOg" id="_M7f1kBJ9Ee6iWNo1ZkwsOg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXagxJ9Ee6iWNo1ZkwsOg" label="id" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXahBJ9Ee6iWNo1ZkwsOg" label="fdc_id" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXahRJ9Ee6iWNo1ZkwsOg" label="seq_num" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXahhJ9Ee6iWNo1ZkwsOg" label="amount" length="10" precision="3" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXahxJ9Ee6iWNo1ZkwsOg" label="measure_unit_id" length="4" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXaiBJ9Ee6iWNo1ZkwsOg" label="portion_description" length="1001" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXaiRJ9Ee6iWNo1ZkwsOg" label="modifier" length="100" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXaihJ9Ee6iWNo1ZkwsOg" label="gram_weight" length="10" precision="4" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXaixJ9Ee6iWNo1ZkwsOg" label="data_points" length="5" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXajBJ9Ee6iWNo1ZkwsOg" label="footnote" length="1002" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXajRJ9Ee6iWNo1ZkwsOg" label="min_year_acquired" length="1003" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

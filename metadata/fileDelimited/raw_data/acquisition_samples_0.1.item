@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_9VJP8BJ1Ee6iWNo1ZkwsOg" name="acquisition_samples" id="_9VDJUBJ1Ee6iWNo1ZkwsOg" dataPackage="_9VJP8RJ1Ee6iWNo1ZkwsOg" Server="Localhost 127.0.0.1" FilePath="C:/DATA/USDAFood/acquisition_samples.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9VJP8RJ1Ee6iWNo1ZkwsOg" name="default" dataManager="_9VJP8BJ1Ee6iWNo1ZkwsOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9VJP8hJ1Ee6iWNo1ZkwsOg" id="_qRKBoBJ1Ee6iWNo1ZkwsOg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9VJP8xJ1Ee6iWNo1ZkwsOg" label="fdc_id_of_sample_food" length="10" talendType="id_String" key="true" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9VJP9BJ1Ee6iWNo1ZkwsOg" label="fdc_id_of_acquisition_food" length="10" talendType="id_String" key="true" pattern="&quot;yyyy-MM-dd&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

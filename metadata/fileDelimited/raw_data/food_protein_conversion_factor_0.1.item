@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_bGwaYRJ9Ee6iWNo1ZkwsOg" name="food_protein_conversion_factor" dataPackage="_bGwaYhJ9Ee6iWNo1ZkwsOg" Server="Localhost 127.0.0.1" FilePath="C:/DATA/USDAFood/food_protein_conversion_factor.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bGwaYhJ9Ee6iWNo1ZkwsOg" name="default" dataManager="_bGwaYRJ9Ee6iWNo1ZkwsOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bGwaYxJ9Ee6iWNo1ZkwsOg" id="_WUx5IBJ9Ee6iWNo1ZkwsOg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bGwaZBJ9Ee6iWNo1ZkwsOg" label="food_nutrient_conversion_factor_id" length="5" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bGwaZRJ9Ee6iWNo1ZkwsOg" label="value" length="4" precision="3" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

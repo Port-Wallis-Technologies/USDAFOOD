@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_XPJMcBJ5Ee6iWNo1ZkwsOg" name="branded_food" id="_XPIlYBJ5Ee6iWNo1ZkwsOg" dataPackage="_XPJzgBJ5Ee6iWNo1ZkwsOg" Server="Localhost 127.0.0.1" FilePath="C:/DATA/USDAFood/branded_food.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_XPJzgBJ5Ee6iWNo1ZkwsOg" name="default" dataManager="_XPJMcBJ5Ee6iWNo1ZkwsOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_XPJzgRJ5Ee6iWNo1ZkwsOg" id="_JHyXkBJ2Ee6iWNo1ZkwsOg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzghJ5Ee6iWNo1ZkwsOg" label="fdc_id" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzgxJ5Ee6iWNo1ZkwsOg" label="brand_owner" length="103" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzhBJ5Ee6iWNo1ZkwsOg" label="brand_name" length="1001" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzhRJ5Ee6iWNo1ZkwsOg" label="subbrand_name" length="1002" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzhhJ5Ee6iWNo1ZkwsOg" label="gtin_upc" length="1010" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzhxJ5Ee6iWNo1ZkwsOg" label="ingredients" length="8001" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJziBJ5Ee6iWNo1ZkwsOg" label="not_a_significant_source_of" length="1004" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJziRJ5Ee6iWNo1ZkwsOg" label="serving_size" length="102" precision="-1" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzihJ5Ee6iWNo1ZkwsOg" label="serving_size_unit" length="11" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzixJ5Ee6iWNo1ZkwsOg" label="household_serving_fulltext" length="1005" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzjBJ5Ee6iWNo1ZkwsOg" label="branded_food_category" length="4001" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzjRJ5Ee6iWNo1ZkwsOg" label="data_source" length="107" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzjhJ5Ee6iWNo1ZkwsOg" label="package_weight" length="1006" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzjxJ5Ee6iWNo1ZkwsOg" label="modified_date" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzkBJ5Ee6iWNo1ZkwsOg" label="available_date" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzkRJ5Ee6iWNo1ZkwsOg" label="market_country" length="13" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzkhJ5Ee6iWNo1ZkwsOg" label="discontinued_date" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzkxJ5Ee6iWNo1ZkwsOg" label="preparation_state_code" length="1007" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzlBJ5Ee6iWNo1ZkwsOg" label="trade_channel" length="1008" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XPJzlRJ5Ee6iWNo1ZkwsOg" label="short_description" length="1009" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

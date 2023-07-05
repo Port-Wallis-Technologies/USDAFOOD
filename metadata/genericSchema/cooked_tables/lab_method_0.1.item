@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_AWfX4BK0Ee6iWNo1ZkwsOg" dataPackage="_AWfX4RK0Ee6iWNo1ZkwsOg" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_AWfX4RK0Ee6iWNo1ZkwsOg" dataManager="_AWfX4BK0Ee6iWNo1ZkwsOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_AWfX4hK0Ee6iWNo1ZkwsOg" id="_AWbtgBK0Ee6iWNo1ZkwsOg" label="postgres">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AWfX4xK0Ee6iWNo1ZkwsOg" name="id" label="id" length="4" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_AWfX5BK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AWfX5RK0Ee6iWNo1ZkwsOg" name="description" label="description" length="1001" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_AWfX5hK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AWfX5xK0Ee6iWNo1ZkwsOg" name="technique" label="technique" length="1002" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_AWfX6BK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

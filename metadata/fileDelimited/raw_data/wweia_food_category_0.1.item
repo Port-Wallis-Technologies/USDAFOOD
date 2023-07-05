@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_aVDFIBHDEe6R7LubmFwfIQ" name="wweia_food_category" dataPackage="_aVDFIRHDEe6R7LubmFwfIQ" Server="Localhost 127.0.0.1" FilePath="C:/data/USDAFood/wweia_food_category.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_aVDFIRHDEe6R7LubmFwfIQ" name="default" dataManager="_aVDFIBHDEe6R7LubmFwfIQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_aVDFIhHDEe6R7LubmFwfIQ" id="_IXCncBHDEe6R7LubmFwfIQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aVDFIxHDEe6R7LubmFwfIQ" label="wweia_food_category" length="4" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aVDFJBHDEe6R7LubmFwfIQ" label="wweia_food_category_description" length="48" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

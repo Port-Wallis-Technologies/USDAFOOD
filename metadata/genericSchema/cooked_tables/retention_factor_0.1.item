@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_DvCoEBK0Ee6iWNo1ZkwsOg" dataPackage="_DvCoERK0Ee6iWNo1ZkwsOg" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_DvCoERK0Ee6iWNo1ZkwsOg" dataManager="_DvCoEBK0Ee6iWNo1ZkwsOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_DvCoEhK0Ee6iWNo1ZkwsOg" id="_Du-WoBK0Ee6iWNo1ZkwsOg" label="postgres">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DvCoExK0Ee6iWNo1ZkwsOg" name="id" label="id" length="10" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_DvCoFBK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DvCoFRK0Ee6iWNo1ZkwsOg" name="code" label="code" length="10" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_DvCoFhK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DvCoFxK0Ee6iWNo1ZkwsOg" name="food_group_id" label="food_group_id" length="10" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_DvCoGBK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DvCoGRK0Ee6iWNo1ZkwsOg" name="description" label="description" length="1001" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_DvCoGhK0Ee6iWNo1ZkwsOg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

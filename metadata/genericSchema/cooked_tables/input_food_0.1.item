@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_-e7ZUBKzEe6iWNo1ZkwsOg" dataPackage="_-e7ZURKzEe6iWNo1ZkwsOg" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_-e7ZURKzEe6iWNo1ZkwsOg" dataManager="_-e7ZUBKzEe6iWNo1ZkwsOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_-e7ZUhKzEe6iWNo1ZkwsOg" id="_-e4WABKzEe6iWNo1ZkwsOg" label="postgres">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZUxKzEe6iWNo1ZkwsOg" name="id" label="id" length="6" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZVBKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZVRKzEe6iWNo1ZkwsOg" name="fdc_id" label="fdc_id" length="10" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZVhKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZVxKzEe6iWNo1ZkwsOg" name="fdc_id_of_input_food" label="fdc_id_of_input_food" length="10" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZWBKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZWRKzEe6iWNo1ZkwsOg" name="seq_num" label="seq_num" length="100" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZWhKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZWxKzEe6iWNo1ZkwsOg" name="amount" label="amount" length="10" precision="5" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZXBKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZXRKzEe6iWNo1ZkwsOg" name="sr_code" label="sr_code" length="8" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZXhKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZXxKzEe6iWNo1ZkwsOg" name="sr_description" label="sr_description" length="1001" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZYBKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZYRKzEe6iWNo1ZkwsOg" name="unit" label="unit" length="2" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZYhKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZYxKzEe6iWNo1ZkwsOg" name="portion_code" label="portion_code" length="5" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZZBKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZZRKzEe6iWNo1ZkwsOg" name="portion_description" label="portion_description" length="1003" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZZhKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZZxKzEe6iWNo1ZkwsOg" name="gram_weight" label="gram_weight" length="10" precision="5" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZaBKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZaRKzEe6iWNo1ZkwsOg" name="retention_code" label="retention_code" length="10" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZahKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-e7ZaxKzEe6iWNo1ZkwsOg" name="survey_flag" label="survey_flag" length="1002" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_-e7ZbBKzEe6iWNo1ZkwsOg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

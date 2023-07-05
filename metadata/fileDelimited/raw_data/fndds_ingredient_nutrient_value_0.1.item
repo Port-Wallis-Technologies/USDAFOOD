@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_GhGFURJ6Ee6iWNo1ZkwsOg" name="fndds_ingredient_nutrient_value" dataPackage="_GhGFUhJ6Ee6iWNo1ZkwsOg" Server="Localhost 127.0.0.1" FilePath="C:/DATA/USDAFood/fndds_ingredient_nutrient_value.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_GhGFUhJ6Ee6iWNo1ZkwsOg" name="default" dataManager="_GhGFURJ6Ee6iWNo1ZkwsOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_GhGFUxJ6Ee6iWNo1ZkwsOg" id="_jJDZsBJ5Ee6iWNo1ZkwsOg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhGFVBJ6Ee6iWNo1ZkwsOg" label="ingredient_code" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhGFVRJ6Ee6iWNo1ZkwsOg" label="Ingredient_description" length="1001" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhGFVhJ6Ee6iWNo1ZkwsOg" label="Nutrient_code" length="3" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhGFVxJ6Ee6iWNo1ZkwsOg" label="Nutrient_value" length="10" precision="5" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhGFWBJ6Ee6iWNo1ZkwsOg" label="Nutrient_value_source" length="102" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhGFWRJ6Ee6iWNo1ZkwsOg" label="FDC_ID" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhGFWhJ6Ee6iWNo1ZkwsOg" label="Derivation_code" length="100" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhGFWxJ6Ee6iWNo1ZkwsOg" label="SR_AddMod_year" length="4" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhGFXBJ6Ee6iWNo1ZkwsOg" label="Foundation_year_acquired" length="4" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhGFXRJ6Ee6iWNo1ZkwsOg" label="Start_date" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GhGFXhJ6Ee6iWNo1ZkwsOg" label="End_date" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

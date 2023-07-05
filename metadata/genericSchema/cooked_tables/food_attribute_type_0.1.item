@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_2iHTwBKzEe6iWNo1ZkwsOg" dataPackage="_2iHTwRKzEe6iWNo1ZkwsOg" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_2iHTwRKzEe6iWNo1ZkwsOg" dataManager="_2iHTwBKzEe6iWNo1ZkwsOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_2iHTwhKzEe6iWNo1ZkwsOg" id="_2iGFoBKzEe6iWNo1ZkwsOg" label="postgres">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2iHTwxKzEe6iWNo1ZkwsOg" name="food_nutrient_conversion_factor_id" label="food_nutrient_conversion_factor_id" length="5" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_2iHTxBKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2iHTxRKzEe6iWNo1ZkwsOg" name="protein_value" label="protein_value" length="4" precision="3" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_2iHTxhKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2iHTxxKzEe6iWNo1ZkwsOg" name="fat_value" label="fat_value" length="4" precision="3" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_2iHTyBKzEe6iWNo1ZkwsOg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2iHTyRKzEe6iWNo1ZkwsOg" name="carbohydrate_value" label="carbohydrate_value" length="4" precision="3" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_2iHTyhKzEe6iWNo1ZkwsOg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

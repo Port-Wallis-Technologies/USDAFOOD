@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_776uERHDEe6R7LubmFwfIQ" name="sub_sample_result" id="_776uEBHDEe6R7LubmFwfIQ" dataPackage="_776uEhHDEe6R7LubmFwfIQ" Server="Localhost 127.0.0.1" FilePath="c:/data/USDAFood/sub_sample_result.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_776uEhHDEe6R7LubmFwfIQ" name="default" dataManager="_776uERHDEe6R7LubmFwfIQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_776uExHDEe6R7LubmFwfIQ" id="_yIYXcBHDEe6R7LubmFwfIQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_776uFBHDEe6R7LubmFwfIQ" label="food_nutrient_id" length="10" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_776uFRHDEe6R7LubmFwfIQ" label="adjusted_amount" length="20" precision="2" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_776uFhHDEe6R7LubmFwfIQ" label="lab_method_id" length="4" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_776uFxHDEe6R7LubmFwfIQ" label="nutrient_name" length="101" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
